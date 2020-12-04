@@ -21,9 +21,10 @@
  O objetivo desse projeto era desenvolver uma aplicação que permita visualizar e manipular dados, e a partir de histórias de usuário fornecer funcionalidades que estivessem de acordo com a necessidade.
  O projeto proposto pela Laboratória foi realizado em duplas, e tralhamos com o banco de dados do Pokémon.
 
- <p align="center">
- <iframe src="https://gifer.com/embed/7rCc" width=480 height=326.809 frameBorder="0" allowFullScreen></iframe>
+   <p align="center">
+ <img src="https://github.com/martinstfn/SAP005-data-lovers/blob/master/hapikachu.gif">
  </p>
+ 
 
 ## 2. Sobre a aplicação
 
@@ -72,11 +73,11 @@ O nome PokéGuide foi escolhido por fazer referência ao Pokémon e a intenção
 
  💻 Interface final desktop
 
-![Interface final desktop](src/assets/assets-readme/notion.png)
+![Interface final desktop](src/assets/assets-readme/interfacefinaldesktop.png)
 
  📱 Interface final mobile
 
-![Interface final mobile](src/assets/assets-readme/notion.png)
+![Interface final mobile](src/assets/assets-readme/interfacefinalmobile.png)
 
  💡 Logo
 
@@ -122,6 +123,6 @@ O nome PokéGuide foi escolhido por fazer referência ao Pokémon e a intenção
  👩 [Stefany Martins](https://github.com/martinstfn)
 
  <p align="center">
- <img src="https://gifer.com/embed/8BPC" width=480 height=240.000 frameBorder="0" allowFullScreen></img>
+ <img src="https://github.com/martinstfn/SAP005-data-lovers/blob/master/src/assets/assets-readme/gifdupla.gif">
  </p>
 
