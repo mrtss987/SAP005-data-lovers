@@ -118,12 +118,12 @@ O nome PokéGuide foi escolhido por fazer referência ao Pokémon e a intenção
 * Jest
 
  ## 8. Desenvolvedoras
-<p align="center">
+
  👩 [Caroline Costa](https://github.com/CarolineSCosta)
  👩 [Stefany Martins](https://github.com/martinstfn)
-  </p>
+ 
 
- <p align="center">
+ 
  <img src="https://github.com/martinstfn/SAP005-data-lovers/blob/master/src/assets/assets-readme/gifdupla.gif">
- </p>
+
 
