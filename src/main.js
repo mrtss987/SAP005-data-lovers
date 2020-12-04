@@ -120,3 +120,4 @@ selectNumber.addEventListener('change', () => {
     const pokemonNumber = sortPokemonNumber(sortNumber, data.pokemon)
     showingCards(pokemonNumber)
 })*/
+
