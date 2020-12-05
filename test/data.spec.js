@@ -7,7 +7,7 @@ describe('instantSearch', () => {
     });
 
     it('should return pokémons that starts with "cha" ', () => {
-        expect(instantSearch("cha", data.pokemon)).toStrictEqual([{
+        expect(instantSearch("ch", data.pokemon)).toStrictEqual([{
                 "name": "charmander",
                 "generation": {
                     "name": "kanto"
@@ -809,17 +809,27 @@ describe('instantSearch', () => {
                         ],
                     }])
                 });
-                //describe('getWeightPercentage', () => {
-                //    it('should be an function', () => {
-                //        expect(typeof getWeightPercentage).toBe('function');
-                //    });
-                //    it('should return "87.2" for "90.5 kg"', () => {
-                //        expect(getWeightPercentage([pokemon.size.weight], [pokemon.name], data.pokemon)).toBe("87.2")
-                //    });
-                //    it('should return "14.4" for "6.0 kg"', () => {
-                //        expect(getWeightPercentage({ weight: "6.0 kg" }, data.pokemon)).toBe("14.4")
-                //    });
-                //})
+                describe('getWeightPercentage', () => {
+                    it('should be an function', () => {
+                        expect(typeof getWeightPercentage).toBe('function');
+                    });
+
+                    const pokemonTeste1 = { name: 'charmander', size: { weight: '8.5 kg' } }
+                    const pokemonTeste2 = { name: 'pikachu', size: { weight: '6.0 kg' } }
+                    const pokemonTeste3 = { name: 'bulbasaur', size: { weight: '6.9 kg' } }
+
+                    it('should return "60 %" for "8.5 kg"', () => {
+                        expect(getWeightPercentage(pokemonTeste1, data.pokemon)).toBe(60)
+                    });
+
+                    it('should return "20 %" for "6.0 kg"', () => {
+                        expect(getWeightPercentage(pokemonTeste2, data.pokemon)).toBe(20)
+                    });
+
+                    it('should return "40 %" for "6.9 kg"', () => {
+                        expect(getWeightPercentage(pokemonTeste3, data.pokemon)).toBe(40)
+                    });
+                })
             })
         })
     })

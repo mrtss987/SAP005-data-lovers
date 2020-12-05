@@ -16,14 +16,13 @@ showingCards(data.pokemon)
 function showingCards(pokemonCards) {
     let showCards = document.querySelector('#main-cards')
     let cards = ""
-    showCards.innerHTML = "";
 
     for (let pokemon of pokemonCards) {
         let evolutions = ""
         if (pokemon.evolution["next-evolution"] != undefined && pokemon.evolution["next-evolution"] != null) {
             evolutions += `<span>${pokemon.evolution["next-evolution"].map(evolution => evolution.name).join(", ")}</span>`
         } else {
-            evolutions = "Do not evolve"
+            evolutions = "Don't evolve"
         }
 
 
@@ -60,6 +59,7 @@ function showingCards(pokemonCards) {
 }
 
 function showingCardsAllFilters() {
+    const selectCp = selectSortCp.value
     const selectGeneration = selectFilterGeneration.value
     const searchName = inputSearch.value
     const selectType = selectFilterType.value
@@ -70,7 +70,14 @@ function showingCardsAllFilters() {
     const pokemonType = selectPokemonType(selectType, pokemons)
     const pokemonResistant = selectPokemonResistant(selectResistant, pokemonType)
     const pokemonWeaknesses = selectPokemonWeaknesses(selectWeaknesses, pokemonResistant)
-    showingCards(pokemonWeaknesses)
+
+    let result = pokemonWeaknesses
+
+    if (selectCp != undefined && selectCp != null) {
+        result = sortPokemonCp(selectCp, result)
+    }
+
+    showingCards(result)
 }
 
 inputSearch.addEventListener('keyup', () => {
@@ -94,9 +101,7 @@ selectFilterGeneration.addEventListener('change', () => {
 })
 
 selectSortCp.addEventListener('change', () => {
-    const selectCp = selectSortCp.value
-    const pokemonCp = sortPokemonCp(selectCp, data.pokemon)
-    showingCards(pokemonCp)
+    showingCardsAllFilters()
 })
 
 buttonClear.addEventListener('click', () => {
