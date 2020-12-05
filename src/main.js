@@ -61,7 +61,7 @@ function showingCards(pokemonCards) {
 function showingCardsAllFilters() {
     const selectCp = selectSortCp.value
     const selectGeneration = selectFilterGeneration.value
-    const searchName = inputSearch.value
+    const searchName = inputSearch.value.toLowerCase()
     const selectType = selectFilterType.value
     const selectResistant = selectFilterResistant.value
     const selectWeaknesses = selectFilterWeaknesses.value
