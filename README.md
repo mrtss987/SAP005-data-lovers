@@ -20,15 +20,9 @@
 
  O objetivo desse projeto era desenvolver uma aplicação que permita visualizar e manipular dados, e a partir de histórias de usuário fornecer funcionalidades que estivessem de acordo com a necessidade.
  O projeto proposto pela Laboratória foi realizado em duplas, e tralhamos com o banco de dados do Pokémon.
-<<<<<<< HEAD
  
  <p align="center">
  <img src="https://media1.giphy.com/media/13G7hmmFr9yuxG/giphy.gif" width=340 height=220 frameBorder="0"></img>
-=======
-
-   <p align="center">
- <img src="https://github.com/martinstfn/SAP005-data-lovers/blob/master/hapikachu.gif">
->>>>>>> 9564fdf5177077d3800243b565dbffda243394aa
  </p>
  
 
@@ -79,19 +73,11 @@ Para identificar quem seriam os usuários da plataforma, realizamos pesquisas ut
 
  💻 Interface final desktop
 
-<<<<<<< HEAD
 ![Interface final desktop](src/assets/assets-readme/interface-desktop-pokeguide.png)
 
  📱 Interface final mobile
 
 ![Interface final mobile](src/assets/assets-readme/interface-mobile-pokeguide.png)
-=======
-![Interface final desktop](src/assets/assets-readme/interfacefinaldesktop.png)
-
- 📱 Interface final mobile
-
-![Interface final mobile](src/assets/assets-readme/interfacefinalmobile.png)
->>>>>>> 9564fdf5177077d3800243b565dbffda243394aa
 
  💡 Logo
 
@@ -141,10 +127,6 @@ Para identificar quem seriam os usuários da plataforma, realizamos pesquisas ut
  
  <img src="https://github.com/martinstfn/SAP005-data-lovers/blob/master/src/assets/assets-readme/gifdupla.gif">
 
-<<<<<<< HEAD
  <p align="center">
  <img src="https://media2.giphy.com/media/10LKovKon8DENq/giphy.gif" width=340 height=220 frameBorder="0"></img>
  </p>
-=======
-
->>>>>>> 9564fdf5177077d3800243b565dbffda243394aa
