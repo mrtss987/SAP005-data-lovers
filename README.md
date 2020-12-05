@@ -24,6 +24,7 @@
  <p align="center">
  <img src="https://media1.giphy.com/media/13G7hmmFr9yuxG/giphy.gif" width=340 height=220 frameBorder="0"></img>
  </p>
+
  
 
 
@@ -127,7 +128,6 @@ Para identificar quem seriam os usuários da plataforma, realizamos pesquisas ut
  
 
  
- <img src="https://github.com/martinstfn/SAP005-data-lovers/blob/master/src/assets/assets-readme/gifdupla.gif">
 
  <p align="center">
  <img src="https://media2.giphy.com/media/10LKovKon8DENq/giphy.gif" width=340 height=220 frameBorder="0"></img>
